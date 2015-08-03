@@ -14,3 +14,23 @@ body{
 	font-weight: 300;
 	font-size: 2em;
 }
+
+
+h1, h2, h3 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	text-align: left;
+}
+
+h1 {
+	color: dodgerblue;
+}
+
+
+/*   General & Basic Styles   */
+
+.highlight {
+background-color: yellow;
+font-size: small;
+}
+

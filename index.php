@@ -13,7 +13,7 @@
 
 		<!-- Start CUSTOM CSS FILES HERE -->
 
-		<link href="../css/style.css" rel="stylesheet" type="text/css"  media="all">
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all">
 
 		<!-- End CUSTOM CSS FILES HERE -->
 
@@ -34,6 +34,17 @@
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
+
+
+		<!-- Start CUSTOM js -->
+
+
+
+		<script src="js/myscript.js" type="text/javascript"></script>
+
+		<!-- End CUSTOM js -->
+
+
 		<title>Playing with javaScript</title>
 
 
@@ -44,10 +55,14 @@
 	<div class="content container">
 
 	<body>
-		<h1>My Man, Hamlet</h1>
+
+		<div id="inputText"  class="col-xs-12">
+
+			<h1>My Man, Hamlet</h1>
+
 		<p>&ldquo;To be, or not to be&hellip;&rdquo; is the opening phrase of a soliloquy in the &ldquo;Nunnery Scene&rdquo; of William Shakespeare&rsquo;s play Hamlet.
 			In the speech, a despondent or feigning Prince Hamlet contemplates death and suicide. He bemoans the pains and unfairness of life but acknowledges the alternative might be still worse. The speech functions within the play to explain Hamlet&rsquo;s hesitation to directly and immediately avenge his father&rsquo;s murder on his uncle, stepfather, and new king Claudius. Claudius and his minister Polonius are preparing to eavesdrop on Hamlet's interaction with Ophelia.</p>
-		<p>To be, or not to be- that is the question:
+		<blockquote class="highlight">To be, or not to be- that is the question:
 			Whether 'tis nobler in the mind to suffer
 			The slings and arrows of outrageous fortune
 			Or to take arms against a sea of troubles,
@@ -81,12 +96,14 @@
 			With this regard their currents turn awry
 			And lose the name of action.- Soft you now!
 			The fair Ophelia!- Nymph, in thy orisons
-			Be all my sins rememb&rsquo;red.
-		</p>
-		<cite>Hamlet, Act III, Scene 1</cite>
+			Be all my sins rememb&rsquo;red.<br>
+			<cite>Hamlet, Act III, Scene 1</cite>
+		</blockquote>
 
-
+		<button onclick="highlight('to')">How many times did Hamlet use the word &ldquo;to&rdquo;?</button>
 
 		</div>
+
+
 	</body>
 </html>
