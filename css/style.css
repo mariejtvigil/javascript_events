@@ -27,7 +27,7 @@ h1 {
 }
 
 
-/*   Highlights for search feature   */
+/*   Highlight        */
 
 
 .highlight {
@@ -35,16 +35,30 @@ h1 {
 	font-size: large;
 }
 
-span.highlighted {
-	background-color: #161616;
-	font-weight: bold;
+.button {
+	margin-top: 30px;
 }
-span.term0 {
-	background-color: #161633;
+
+
+.highlighted {
+	background: palegreen;
 }
-span.term1 {
-	background-color: #331616;
+
+
+
+
+/*   scroll        */
+
+
+
+blockquote {
+	border:1px solid black;
+	width:autopx;
+	height:150px;
+	overflow:scroll;
 }
-span.term2 {
-	background-color: #163316;
+
+
+.replace {
+margin-top: 40px;
 }

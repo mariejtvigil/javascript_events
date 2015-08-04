@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+
+			<title>Search Example Page</title>
+
+			<!-- Insert Angular.JS source files here -->
+		</head>
+		<body ng-controller="ApplicationController" ng-app="myApp">
+
+			<!-- ngView -->
+			<div role="main" data-ng-view>
+
+			</div>
+
+			<!-- Search Results -->
+			<div ng-repeat="searchItem in searchService.arrSearchResults">
+
+				<p>Search Result: <br/>{{searchItem}}</p>
+
+			</div>
+
+
+	</body>
+</html>

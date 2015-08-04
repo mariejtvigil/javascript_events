@@ -51,16 +51,29 @@
 	</head>
 
 
-	<!-- full body content container -->
-	<div class="content container">
 
-	<body>
+	<body ng-app="Demo">
 
-		<div id="inputText"     class="col-xs-12">
+
+			<form name="search" role="form" action="results.html">
+				<div class="input-group input-group-search">
+
+					<input type="text" class="form-control"  ng-model="blab" name="q" required>
+        <span class="input-group-addon">
+            <button class="btn-search" ng-disabled="search.$invalid">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</button>
+        </span>
+					<input type="hidden" name="mode" value="web"/>
+				</div>
+			</form>
+
+
+			<div class="col-xs-12">
 
 			<h1>My Man, Hamlet</h1>
 
-		<p>&ldquo;To be, or not to be&hellip;&rdquo; is the opening phrase of a soliloquy in the &ldquo;Nunnery Scene&rdquo; of William Shakespeare&rsquo;s play Hamlet.
+		<p>&ldquo;To be, or not to be&hellip;&rdquo; is the opening phrase of a soliloquy in the &ldquo;Nunnery Scene&rdquo; of <span id="demo"><strong>William Shakespeare</strong></span>&rsquo;s play Hamlet.
 			In the speech, a despondent or feigning Prince Hamlet contemplates death and suicide. He bemoans the pains and unfairness of life but acknowledges the alternative might be still worse. The speech functions within the play to explain Hamlet&rsquo;s hesitation to directly and immediately avenge his father&rsquo;s murder on his uncle, stepfather, and new king Claudius. Claudius and his minister Polonius are preparing to eavesdrop on Hamlet's interaction with Ophelia.</p>
 		<blockquote id="inputText">To be, or not to be- that is the question:
 			Whether 'tis nobler in the mind to suffer
@@ -100,10 +113,15 @@
 			<cite>Hamlet, Act III, Scene 1</cite>
 		</blockquote>
 
-		<button onclick="highlight('To be, or not to be')">What is the question that Hamlet asks?</button><br>
+		<button class="button" onclick="highlight('To be, or not to be')">What is the question that Hamlet asks?</button><br>
+
+			<p class="replace">Click the button to replace &ldquo;William Shakespeare&rdquo; with &ldquo;Sponge Bob&ldquo; in the paragraph above:</p>
+
+			<button onclick="myFunction()">Do it now</button>
+
+
 
 		</div>
-
 
 	</body>
 </html>
