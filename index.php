@@ -56,13 +56,13 @@
 
 	<body>
 
-		<div id="inputText"  class="col-xs-12">
+		<div id="inputText"     class="col-xs-12">
 
 			<h1>My Man, Hamlet</h1>
 
 		<p>&ldquo;To be, or not to be&hellip;&rdquo; is the opening phrase of a soliloquy in the &ldquo;Nunnery Scene&rdquo; of William Shakespeare&rsquo;s play Hamlet.
 			In the speech, a despondent or feigning Prince Hamlet contemplates death and suicide. He bemoans the pains and unfairness of life but acknowledges the alternative might be still worse. The speech functions within the play to explain Hamlet&rsquo;s hesitation to directly and immediately avenge his father&rsquo;s murder on his uncle, stepfather, and new king Claudius. Claudius and his minister Polonius are preparing to eavesdrop on Hamlet's interaction with Ophelia.</p>
-		<blockquote class="highlight">To be, or not to be- that is the question:
+		<blockquote id="inputText">To be, or not to be- that is the question:
 			Whether 'tis nobler in the mind to suffer
 			The slings and arrows of outrageous fortune
 			Or to take arms against a sea of troubles,
@@ -100,7 +100,7 @@
 			<cite>Hamlet, Act III, Scene 1</cite>
 		</blockquote>
 
-		<button onclick="highlight('to')">How many times did Hamlet use the word &ldquo;to&rdquo;?</button>
+		<button onclick="highlight('To be, or not to be')">What is the question that Hamlet asks?</button><br>
 
 		</div>
 
