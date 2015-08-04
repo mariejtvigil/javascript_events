@@ -115,7 +115,7 @@
 
 		<button class="button" onclick="highlight('To be, or not to be')">What is the question that Hamlet asks?</button><br>
 
-			<p class="replace">Click the button to replace &ldquo;William Shakespeare&rdquo; with &ldquo;Sponge Bob&ldquo; in the paragraph above:</p>
+			<p class="replace">Click the button to replace &ldquo;William Shakespeare&rdquo; with &ldquo;Sponge Bob&rdquo; in the paragraph above:</p>
 
 			<button onclick="myFunction()">Do it now</button>
 

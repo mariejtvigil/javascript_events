@@ -82,3 +82,22 @@ angular.module('Demo', [])
 			return $sce.trustAsHtml(text)
 		}
 	})
+
+
+/**
+ * closure
+ **/
+
+
+
+$ (document).ready(function() {
+	// set the text size
+	var textSize = 1.0;
+
+	// use a closure to increase the text size
+	$(“p”) .hover(function() {
+		textSize = textSize * 1.01;
+		$ (this).css(“font-size”, textSize + “em”);
+	});
+
+});
