@@ -53,7 +53,7 @@ h1 {
 
 blockquote {
 	border:1px solid black;
-	width:autopx;
+	width:auto;
 	height:150px;
 	overflow:scroll;
 }
